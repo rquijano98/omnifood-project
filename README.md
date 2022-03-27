@@ -2,13 +2,19 @@
 
 ## Description
 
-This Omnifood Project is a landing page for a fictional service. This fictional service is a 365-day subscription that uses AI to design meals for the subscriber; these meals are then delivered to the subscriber daily. This landing page gives important information about the service as well and contains a call-to-action section, where the user can sign up for the fictional service. The details of this landing page are provided as highlights, which are listed below in this README file.
+This Omnifood Project is a landing page for a fictional service. This fictional service is a 365-day subscription that uses AI to design meals for the subscriber; these meals are then delivered to the subscriber daily. This landing page gives important information about the service and contains a call-to-action section, where the user can sign up. The details of this landing page are provided as highlights, which are listed below in this README file.
 
 _**Disclaimer** Although I fully understand the HTML, CSS, and JavaScript of this project, this project was created as part of an online course, so this is not an original idea of mine._
 
+## How to Run the Application
+
+1. Download or clone the "omnifood-project" repository from GitHub.
+2. Navigate to the newly created directory, which should be called "omnifood-project" on your machine.
+3. Open index.html in your web browser.
+
 ## Highlights
 
-<ins>**Note**</ins>: The entire page is dynamic by virtue of media queries. As such, I will not detail every single dynamic component of every section. I will only note the most noteworthy dynamic components.
+<ins>**Note**</ins>: The entire page is dynamic by virtue of media queries. As such, I will not detail every single responsive component of every section. I will only note the most noteworthy responsive components (labeled below as "Responsive highlights").
 
 ### Header (bar at the top of the page that contains Omnifood logo and navigation)
 
@@ -16,7 +22,7 @@ _**Disclaimer** Although I fully understand the HTML, CSS, and JavaScript of thi
 2. When the user clicks on any of the navigation elements, they are scrolled smoothly to a component of the page that corresponds to that element. For example, if the user clicks on "How it works", they are brought to the component of the page that explains how the Omnifood service works.
 3. <ins>**Responsive Highlight**</ins>: If the user's window is 944px or less, the navigation items no longer show in the top right. Instead, a hamburger icon is shown. When this hamburger icon is clicked on, a navigation menu containing the navigation items slides into view from the right side of the page. If the user clicks on one of these navigation items, the navigation menu closes and they are smoothly scrolled to the corresponding section on the page
 
-### Hero Section (section titled "A healthy meal delivered to your door, every single day")
+### Hero Section (titled "A healthy meal delivered to your door, every single day")
 
 1. Clicking on the "Start eating well" button will smoothly scroll the user to the call-to-action section of the page, where they can input their information to sign up for the service. Clicking on the "Learn more" button will smoothly scroll the user to the component of the page immediately after the hero section where details about the service are given.
 
@@ -32,15 +38,9 @@ _**Disclaimer** Although I fully understand the HTML, CSS, and JavaScript of thi
 
 ### Pricing Section (titled "Eating well without breaking the bank")
 
-1. Whenever the user clicks on any of the two "Start eating well" buttons, they are brought to the call to action section, where the user can type in their information to sign up for the service.
+1. Whenever the user clicks on any of the two "Start eating well" buttons, they are brought to the call-to-action section where they can type in their information to sign up for the service.
 
 ### Call-to-Action Section (titled "Get your first meal for free!")
 
 1. The user can input their information in order to sign up for the service. They can either click "Sign up now" or hit enter after they have typed in their information. Currently, the only thing that happens when the user signs up is that the page reloads.
-2. This is a form with input validation. If the user inputs an unaccpetable value for one of the fields, a prompt appears that lets them know so. The user cannot sign up until all of the input fields are acceptable.
-
-## How to Run the Application
-
-1. Download or clone the "omnifood-project" repository from GitHub.
-2. Navigate to the newly created directory, which should be called "omnifood-project" on your machine.
-3. Open index.html in your web browser.
+2. This is a form with input validation. If the user inputs an unacceptable value for one of the fields, a prompt appears that lets them know so. The user cannot sign up until all of the input fields are acceptable.
